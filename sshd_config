@@ -1,0 +1,16 @@
+Port CHANGE_HERE
+AddressFamily inet
+
+SyslogFacility AUTHPRIV
+
+LoginGraceTime 1m
+PermitRootLogin no
+MaxAuthTries 3
+
+PasswordAuthentication no
+
+PrintMotd no
+
+AcceptEnv LANG LC_*
+
+AllowUsers CHANGE_HERE

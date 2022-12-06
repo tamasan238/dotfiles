@@ -1,0 +1,32 @@
+alias rm='rm -i'
+alias cp='cp -i'
+alias mv='mv -i'
+
+alias cd..='cd ..'
+
+alias bashrc="vi ~/.bashrc"
+alias fishrc="vi /Users/masaki/.config/fish/config.fish"
+alias vimrc="vi ~/.vimrc"
+
+alias sourceb="source ~/.bashrc"
+alias sourcef="source /Users/masaki/.config/fish/config.fish"
+alias sourcev="source ~/.vimrc"
+
+alias t="tmuximum"
+
+alias ls="exa"
+alias ll="exa -la"
+alias tree="exa --tree"
+alias od="hexyl"
+alias find="fd"
+alias grep="rg"
+alias rm="trash -F"
+
+alias a="./a.out"
+alias c="clear"
+alias e="exit"
+alias d="tmux detach"
+alias py="python3"
+alias pip="pip3"
+
+alias ipcheck="sudo arp-scan -I en0 -l"
