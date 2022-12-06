@@ -1,0 +1,4 @@
+Host *
+	IdentityFile ~/.ssh/id_ecdsa
+	ServerAliveInterval 60
+	ServerAliveCountMax 10
