@@ -14,9 +14,9 @@ alias sourcev="source ~/.vimrc"
 
 alias t="tmuximum"
 
-alias ls="exa"
-alias ll="exa -la"
-alias tree="exa --tree"
+alias ls="eza"
+alias ll="eza -la"
+alias tree="eza --tree"
 alias od="hexyl"
 alias find="fd"
 alias grep="rg"
