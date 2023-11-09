@@ -19,10 +19,14 @@ cat alias >> ~/.config/fish/config.fish
 
 ## authorized_keys
 ```
+ssh-import-id-gh tamasan238
+```
+
+<!-- ```
 mkdir -m 700 ~/.ssh \
 && cat authorized_keys >> ~/.ssh/authorized_keys \
 && chmod 600 ~/.ssh/authorized_keys
-```
+``` -->
 
 ## ssh_config
 ```
