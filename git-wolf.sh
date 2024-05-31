@@ -26,4 +26,5 @@ cd tamasan238
 gh repo clone tamasan238/wolfssl
 gh repo clone tamasan238/RPi-pico-w
 gh repo clone tamasan238/wolfssl-examples
+gh repo clone tamasan238/documentation
 cd ..
