@@ -1,0 +1,5 @@
+echo "You need to UPLOAD a pub key as a SIGNING KEY on github.com/settings/keys"
+
+git config --global gpg.format ssh
+git config --global user.signingkey ~/.ssh/id_ecdsa
+git config --global commit.gpgsign true
