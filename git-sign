@@ -1,0 +1,3 @@
+git config --global gpg.format ssh
+git config --global user.signingkey ~/.ssh/id_ecdsa
+git config --global commit.gpgsign true
