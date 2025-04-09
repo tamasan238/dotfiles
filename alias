@@ -5,7 +5,7 @@ alias mv='mv -i'
 alias cd..='cd ..'
 alias dc='cd'
 
-alias rmtex='rm *.aux *.log *.gz *.out *.bbl'
+alias rmtex='rm *.aux *.log *.gz *.out'
 
 alias bashrc="vi ~/.bashrc"
 alias fishrc="vi /Users/masaki/.config/fish/config.fish"
