@@ -1,6 +1,9 @@
-$common = "--exact --silent --accept-package-agreements --accept-source-agreements"
-
-winget upgrade --all $common
+$common = @(
+    "--exact",
+    "--silent",
+    "--accept-package-agreements",
+    "--accept-source-agreements"
+)
 
 $packages = @(
     "Git.Git",
@@ -12,5 +15,5 @@ $packages = @(
 )
 
 foreach ($pkg in $packages) {
-    winget install --id $pkg $common
+    winget install --id $pkg @common
 }
