@@ -12,6 +12,7 @@ $packages = @(
     "Microsoft.WindowsTerminal",
     "GitHub.cli",
     "Google.Chrome"
+    "Google.JapaneseIME"
 )
 
 foreach ($pkg in $packages) {
